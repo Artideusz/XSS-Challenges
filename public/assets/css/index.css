@@ -1,0 +1,58 @@
+body {
+    font-family: monospace;
+    background-color: #000;
+    color: #eee;
+}
+
+.logo {
+    color: #fff;
+    padding: 20px;
+}
+
+.big {
+    font-size: 20rem
+}
+
+.main-container {
+    background-image: url("../img/wallpaper.jpg");
+    height: 600px;
+}
+
+.whatis {
+    min-height: 100vh;
+}
+
+.demo-item {
+    text-align: center;
+    font-weight: bold;
+    width: 15em;
+    padding: 1.8em;
+    margin: 1em;
+    color: #0a0;
+    border-radius: 1em;
+}
+
+.demo-item:hover {
+    text-decoration: none;
+    color: #0f0
+}
+
+.pl-15px {
+    padding-left: 15px;
+}
+
+.logo > a:visited {
+    color:#fff;
+}
+
+.logo > a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%
+}
+
+p {
+    margin-top: 1rem;
+}

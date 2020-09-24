@@ -1,0 +1,35 @@
+body {
+    font-family: monospace !important;
+    background-color: #000 !important;
+    color: #fff !important;
+    overflow: hidden;
+}
+
+.fullscreen {
+    width: calc(100vw - 4em);
+    height: calc(100vh - 4em);
+    margin: 2em;
+    background-color: #002;
+    padding: 4em;
+    border-radius: 10px;
+}
+
+.item {
+    color: #fff;
+    font-size: 1.3em;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+    touch-action: none;
+    user-select: none;
+}
+
+.item-image {
+    margin-top: 1em;
+    max-width: 100px;
+    border-radius: 10px;
+}
+
+.inactive {
+    display: none;
+}

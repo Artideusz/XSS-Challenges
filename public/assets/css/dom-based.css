@@ -1,0 +1,8 @@
+body {
+    background-color: #555;
+    color: #fff;
+}
+
+td {
+    width: 20em; /* I do not know why this straightens the table cells. */
+}

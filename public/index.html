@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTDeusz - XSS Explanation & Practice Corner</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="main-container container-fluid">
+        <div class="logo"><a href="https://github.com/Artideusz" target="_blank" rel="noreferrer noopener">RTDeusz</a></div>
+        <span class="big" id="animated">XSS</span>
+    </div>
+    <div class="whatis">
+        <h2 class="text-center pt-4">Challenges</h2>
+        <div class="challenges d-flex justify-content-center">
+            <a href="/reflected" class="demo-item">Reflected XSS</a>
+            <a href="/dom-based"class="demo-item">DOM-Based XSS</a>
+            <a href="/persistent"class="demo-item">Persistent XSS</a>
+        </div>
+        <div class="container">
+            <h1>What is XSS?</h1>
+            <p>Cross-site scripting (or shortly called XSS) is a method of injecting javascript code to a web application without permission. The most dangerous thing about this is that XSS grants an attacker control over what other people see on the webpage or steal cookie information about a user who is unlucky enough to execute the attackers javascript code when an infected page loads. If an attacker had your session cookie, there was a pretty high chance he could use it to "log in" to your account and do damage (for example sending malicous links through your social media account to other people that trust you). An attacker can log in into your account using nothing but a session cookie that looks like this:</p>
+            <img src="img/session_cookie.jpg" alt="A picture of a session cookie">
+            <p>Nowadays, session cookie theft is harder to pull off, mainly because the HttpOnly header exists and alot of frontend frameworks try to prevent XSS in general. But still, since the attacker has full control over the content of the page (and partially your browser), he might as well turn it into a login screen that looks similar to the real one on the page. Many people would just think that it's just some kind of hiccup or additional security layer of the site and try to log in again, giving sensitive information to the attacker.</p>
+            <p>XSS vulnerabilities are ranked at number #7 by the <a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noreferrer noopener">OWASP Top 10 Security Vulnerabilities Ranking</a>.</p>
+            <p>You can learn more about XSS and their types <a href="https://github.com/Artideusz/My-cyber-security-notes/tree/master/Web/Code%20Injection/Cross-site%20Scripting" target="_blank" rel="noreferrer noopener">here</a> or you can try out my challenges I created above (try to ivoke an alert message on page load for additional learning points!). Have fun and never stop learning!</p>
+        </div>
+    </div>
+    <script src="js/jquery.slim.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

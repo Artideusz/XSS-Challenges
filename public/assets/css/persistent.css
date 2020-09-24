@@ -1,0 +1,81 @@
+body {
+    background-color: #001;
+}
+
+.post {
+    margin: 1.2em;
+    background-color: #666;
+}
+
+.avatarImage {
+    width: 5em;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.navbarCustom {
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+}
+
+.imageLogo {
+    height: 1.25rem;
+}
+
+.author {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.postContent {
+    font-size: 2.2em;
+    margin: 1rem;
+}
+
+.comments {
+    padding: 1rem;
+}
+
+.commentsSep {
+    margin: 1rem;
+}
+
+.comment {
+    background-color: #444;
+    margin: 1em;
+    padding: 0.5rem;
+}
+
+.addComment {
+    background-color: #444;
+    margin: 1em;
+    padding: 0.5rem;
+}
+
+.sendComment {
+    margin-left: 0.5rem;
+}
+
+.commentArea {
+    border-color: #555;
+    color: white;
+}
+
+.commentArea:focus {
+    color: white;
+}
+
+.commentContent {
+    background-color: #555;
+    padding: 1rem;
+    color: #fff;
+}
+
+.alertBox {
+    position: fixed;
+    width: 70%;
+    top: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+}
