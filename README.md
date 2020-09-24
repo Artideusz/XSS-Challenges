@@ -16,5 +16,5 @@ To run the server using a local node.js server, all you need to do is:
 
 ## Running the server using Docker
 To run the server using Docker, you need to:
-- docker pull from this dockerhub [repository]().
+- docker pull from this dockerhub [repository](https://hub.docker.com/r/artideusz/xss-challenges).
 - `docker run -d -p <host port>:8080 <pulled repo>`
